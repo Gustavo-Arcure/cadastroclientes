@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "versel-build": "npx prisma migrate deploy"
   },
   "dependencies": {
     "body-parser": "^2.2.1",
