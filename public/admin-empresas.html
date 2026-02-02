@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Admin Empresas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="/img/logo.png" alt="Logo da Empresa" id="logo">
+  <h1>Casinha Minha - Admin Empresas</h1>
+</header>
+
+<main class="container">
+
+  <div class="admin-card">
+    <h2>Empresas Cadastradas</h2>
+    <ul id="listaEmpresas" class="lista-empresas"></ul>
+
+    <div class="admin-add">
+      <input id="novaEmpresa" placeholder="Nome da empresa">
+      <button onclick="adicionarEmpresa()">Adicionar Empresa</button>
+    </div>
+
+    <a href="index.html">
+      <button class="secundario">Voltar</button>
+    </a>
+  </div>
+
+  <button id="backToTop">&#8679;</button>
+  
+     <footer>
+        © 2026 • Gustavo Bispo • Gustavo.arcure@outlook.com
+    </footer>
+</main>
+
+<script src="script.js"></script>
+<script>
+  window.onload = () => {
+    carregarEmpresasAdmin(); // Puxar empresas existentes no admin
+  };
+</script>
+</body>
+</html>

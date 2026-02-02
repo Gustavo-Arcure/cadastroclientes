@@ -1,0 +1,374 @@
+/* -------------------- GERAL -------------------- */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f4f6f8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* espaço entre logo e título */
+  padding: 10px 20px;
+  background: #1e3a8a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+h1,
+h2 {
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.btindex {
+  text-align: center;
+  padding: 20px 0 0 0
+}
+
+/* -------------------- CARDS -------------------- */
+.card,
+.admin-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  text-align: centers;
+}
+
+.card:hover,
+.admin-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card h2,
+.admin-card h2 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 5px;
+}
+
+/* -------------------- INPUTS E SELECT -------------------- */
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #cfcbc9;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="gray" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 20,0 10,10"/></svg>') no-repeat right 10px center;
+  background-size: 12px;
+}
+
+/* -------------------- BOTÕES -------------------- */
+button {
+  background: #1e3a8a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+button:hover {
+  background: #3b59d1;
+}
+
+button.secundario {
+  background: #475569;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+button.secundario:hover {
+  background: #334155;
+}
+
+button.del {
+  background: #ef4444;
+}
+
+button.del:hover {
+  background: #b91c1c;
+}
+
+/* -------------------- MENSAGENS -------------------- */
+.msg {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.msg.erro {
+  color: red;
+}
+
+/* -------------------- TABELAS -------------------- */
+table {
+  width: 100%;
+  background: #fff;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  width: 4%;
+}
+
+tr:hover {
+  background: #f1f5f9;
+}
+
+/* -------------------- LINHA BUSCA + FILTRO -------------------- */
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.row input,
+.row select,
+.row button {
+  flex: 1;
+}
+
+/* -------------------- ADMIN EMPRESAS -------------------- */
+.admin-card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.lista-empresas {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.lista-empresas li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background: #f8fafc;
+  transition: 0.2s;
+}
+
+.lista-empresas li:hover {
+  background: #e2e8f0;
+}
+
+.lista-empresas li button {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  width: 20%;
+}
+
+.lista-empresas li button:hover {
+  background: #8a7b7b;
+}
+
+/* -------------------- ADICIONAR EMPRESA -------------------- */
+.admin-add {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.admin-add input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+}
+
+.admin-add button {
+  background: #1e3a8a;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  width: 20%;
+}
+
+.admin-add button:hover {
+  background: #3b59d1;
+}
+
+/* -------------------- BOTÃO VOLTAR -------------------- */
+button.secundario {
+  width: 100%;
+  background: #475569;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+button.secundario:hover {
+  background: #334155;
+}
+
+/* -------------------- BOTÃO TOPO -------------------- */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #0056b3;
+}
+
+/* -------------------- LOGO -------------------- */
+#logo {
+  width: 98px;
+  vertical-align: middle;
+  margin: 0 2% 0 4%;
+}
+
+
+/* ===================================================== */
+/* === COMPLEMENTO: AÇÕES (EDITAR / EXCLUIR NO HOVER) === */
+/* ===================================================== */
+
+.acoes {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+tr:hover .acoes {
+  opacity: 1;
+}
+
+.acoes button {
+  width: auto;
+  margin: 2px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+
+
+#msgFiltro {
+  text-align: center;
+  margin-top: 6%;
+}
+
+
+
+#paginacao {
+  margin-top: 15px;
+}
+
+#paginacao button {
+  width: 8%;
+  margin-right: 1%;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+#paginacao button.ativo {
+  font-weight: bold;
+  background: #0056b3;
+  color: #ffffff;
+}
+
+.btnindex {
+  width: 24%;
+  font-size: clamp(10px, 2vw, 14px);
+  padding: 20px;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}

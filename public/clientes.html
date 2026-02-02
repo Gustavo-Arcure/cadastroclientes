@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Todos os Clientes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+
+<body>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <h2>Editar Cliente</h2>
+
+    <input id="m_nome" placeholder="Nome">
+    <input id="m_empresa" placeholder="Empresa">
+    <input id="m_salario" placeholder="Salário">
+    <input id="m_cpf" placeholder="CPF">
+
+    <div class="modal-actions">
+      <button onclick="salvarEdicao()">Salvar</button>
+      <button class="del" onclick="excluirEdicao()">Excluir</button>
+      <button class="secundario" onclick="fecharModal()">Cancelar</button>
+    </div>
+  </div>
+</div>
+
+
+  <header>
+    <img src="/img/logo.png" alt="Logo da Empresa" id="logo">
+    <h1>Casinha Minha - Cadastro de Clientes</h1>
+  </header>
+
+  <main class="container">
+
+    <div class="filtros row">
+      <input id="busca" placeholder="Buscar por nome" onkeyup="buscarClientes()" oninput="formatarMaiusculo(this)">
+      <button onclick="limparBusca()">Limpar</button>
+
+      <select id="filtroEmpresa" onchange="filtrarEmpresa()">
+        <option value="">Todas as empresas</option>
+      </select>
+
+
+
+
+
+      <select id="ordenar" onchange="ordenar(this.value)">
+        <option value="data">Mais recentes</option>
+        <option value="data_antiga">Mais antigos</option>
+        <option value="nome">A-Z - Clientes</option>
+        <option value="empresa">A-Z - Empresas</option>
+      </select>
+
+      <button onclick="exportar()">Exportar Excel</button>
+      <a href="index.html">
+        <button class="secundario">Voltar</button>
+      </a>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Empresa</th>
+          <th>Salário</th>
+          <th>CPF</th>
+          <th>Data Cadastro</th>
+          <th>Configurações</th>
+        </tr>
+      </thead>
+      <tbody id="lista"></tbody>
+    </table>
+
+    <p id="msgFiltro" class="msg"></p>    
+
+    <div id="paginacao"></div>
+
+
+
+    <button id="backToTop">&#8679;</button>
+
+
+   <footer>
+        © 2026 • Gustavo Bispo • Gustavo.arcure@outlook.com
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

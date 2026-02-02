@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1766484764073,
+    "nome": "GUSTAVO BISPO DOS SANTOS",
+    "empresa": "PLATE",
+    "salario": "2800,00",
+    "cpf": "415.501.987-54",
+    "data": "23/12/2025"
+  },
+  {
+    "id": 1766484811041,
+    "nome": "ALINE SIQUEIRA",
+    "empresa": "BRZ",
+    "salario": "3000,00",
+    "cpf": "236.514.555-55",
+    "data": "23/12/2025"
+  },
+  {
+    "id": 1766484829449,
+    "nome": "JOAQUIM PEREIRA",
+    "empresa": "CONSIL",
+    "salario": "5000,00",
+    "cpf": "300.062.224-55",
+    "data": "23/12/2025"
+  },
+  {
+    "id": 1766484858177,
+    "nome": "MAG SANTOS",
+    "empresa": "ANTECIPA",
+    "salario": "6000,00",
+    "cpf": "273.624.985-57",
+    "data": "23/12/2025"
+  },
+  {
+    "id": 1766484873673,
+    "nome": "ELIANE SOARES",
+    "empresa": "CALEBE",
+    "salario": "5300,00",
+    "cpf": "154.287.984-55",
+    "data": "23/12/2025"
+  },
+  {
+    "id": 1769989957200,
+    "nome": "RAFAELA RUIVA",
+    "empresa": "CONSIL",
+    "salario": "121212,21",
+    "cpf": "666.666.666-66",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769992080999,
+    "nome": "CELIO LEMOS",
+    "empresa": "ANTECIPA",
+    "salario": "525,85",
+    "cpf": "628.291.918-18",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993125912,
+    "nome": "JULIANA SOUZA",
+    "empresa": "CONSIL",
+    "salario": "1623,65",
+    "cpf": "545.646.464-64",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993148780,
+    "nome": "HELEN CARRÃO",
+    "empresa": "CALEBE",
+    "salario": "6032,01",
+    "cpf": "489.595.765-65",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993164915,
+    "nome": "MARTA PEREIRA",
+    "empresa": "ANTECIPA",
+    "salario": "965,32",
+    "cpf": "484.644.465-46",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993185840,
+    "nome": "JOAQUIM TELES",
+    "empresa": "RS",
+    "salario": "2300,00",
+    "cpf": "541.646.546-54",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993248447,
+    "nome": "ITAMAR SANTOS",
+    "empresa": "BRZ",
+    "salario": "5402,00",
+    "cpf": "646.546.464-68",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993270235,
+    "nome": "RENATO SOUZA",
+    "empresa": "CONSIL",
+    "salario": "6565,49",
+    "cpf": "165.849.849-94",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993288882,
+    "nome": "ESTEFANI ESTER",
+    "empresa": "PLATE",
+    "salario": "9788,94",
+    "cpf": "213.546.84",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993335036,
+    "nome": "CONAN JOAQUIM",
+    "empresa": "CALEBE",
+    "salario": "1500,00",
+    "cpf": "546.468.484-68",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993403282,
+    "nome": "LEIDIANE PORTO",
+    "empresa": "RS",
+    "salario": "6954,85",
+    "cpf": "654.168.464-65",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993436261,
+    "nome": "CORIOLANOS SNOW",
+    "empresa": "ANTECIPA",
+    "salario": "2345,00",
+    "cpf": "213.546.847-96",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993483760,
+    "nome": "KATARINA VERDIM",
+    "empresa": "RS",
+    "salario": "4500,00",
+    "cpf": "945.469.468-48",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993540033,
+    "nome": "HILDA CAMINHOS",
+    "empresa": "MRX",
+    "salario": "980,00",
+    "cpf": "546.465.456-44",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993561837,
+    "nome": "ANGUE MONGE",
+    "empresa": "CONSIL",
+    "salario": "652,36",
+    "cpf": "241.154.545-45",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993584538,
+    "nome": "SERGIO FERREIRA",
+    "empresa": "MRX",
+    "salario": "6532,32",
+    "cpf": "654.164.156-54",
+    "data": "01/02/2026"
+  },
+  {
+    "id": 1769993641715,
+    "nome": "PORTALINE PEDROSA",
+    "empresa": "ANTECIPA",
+    "salario": "2365,20",
+    "cpf": "645.564.689-97",
+    "data": "01/02/2026"
+  }
+]
